@@ -493,8 +493,8 @@ class reset_password_window:
         # Load configuration from the JSON file
         with open('encrypted_password.json', 'r') as config_file:
             config = json.load(config_file)
-        #set email that will send the automated message (my burner gmail)
-        email_sender = "noreply.rotamaker@gmail.com"
+        #set email that will send the automated message (burner gmail)
+        email_sender = ""
         #get the encrypted app password
         enc_pass = self.retrieve_encrypted_password()
         #get the encryption key (symmetric encryption)
