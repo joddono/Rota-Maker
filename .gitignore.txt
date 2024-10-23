@@ -1,0 +1,4 @@
+# Ignore sensitive files
+encrypted_password.json
+key.key
+~$*.xlsx
